@@ -66,7 +66,7 @@ function App() {
 
   return (
     <div
-      className={`-z-[2] flex h-screen flex-col items-center justify-around bg-[#1E213F] ${state.activeFont}`}
+      className={`-z-[2] flex h-screen w-screen flex-col items-center justify-around bg-[#1E213F] ${state.activeFont} p-5`}
     >
       <Title />
       <Bar

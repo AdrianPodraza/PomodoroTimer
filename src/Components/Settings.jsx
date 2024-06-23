@@ -23,7 +23,7 @@ function Settings({ onClick, state, dispatch }) {
 
   return (
     showSettings && (
-      <div className="fixed z-10 flex w-[540px] flex-col rounded-lg bg-white">
+      <div className="fixed z-10 flex max-w-[540px] flex-col rounded-lg bg-white">
         <div className="flex w-full items-center justify-between border-b-2 border-[#E3E1E1] p-7">
           <p className="text-2xl font-bold">Settings</p>
           <button onClick={onClick}>
